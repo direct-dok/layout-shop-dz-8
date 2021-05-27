@@ -413,6 +413,7 @@ table {
   height: 180px;
   background: #f1e4e6;
   background-image: url(../img/accesories.jpg);
+
   margin: 30px 15px 0 15px;
 }
 @media (max-width: 768px) {
@@ -1807,6 +1808,7 @@ table {
 .product-info__button-add-cart--icon-cart {
   fill: #EF5B70;
 }
+
 .product-info__button-add-cart:hover {
   background: #E05C6E;
   color: #fff;
