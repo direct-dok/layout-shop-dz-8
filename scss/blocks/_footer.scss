@@ -1,5 +1,6 @@
 .footer {
-    background: url(../img/footer-background.jpg);
+    background-color: #ebebeb;
+    background-image: url(../img/footer-background.jpg);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: cover;
@@ -45,6 +46,7 @@
         @include flex-align-items-center();
         flex-direction: column;
         justify-content: center;
+        max-width: 400px;
 
         @include tablet-style() {
             max-width: 360px;
@@ -59,11 +61,13 @@
     &__caption-subscribe {
         @include font-size-weight(24px, 700);
         text-transform: uppercase;
+        text-align: center;
         color: #222224;
     }
     
     &__description-subscribe {
         text-transform: uppercase;
+        text-align: center;
         color: #222224;
         margin: 10px 0 0 0;
 
@@ -149,6 +153,7 @@
         font-size: 16px;
         line-height: 19px;
         color: #FBFBFB;
+        max-width: 400px;
 
         @include mobile-landscape-style() {
             margin: 40px 0 0 0;

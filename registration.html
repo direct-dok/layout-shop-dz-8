@@ -101,18 +101,18 @@
                     <fieldset>
                         <legend class="registration__legend-form">Your name</legend>
                         <div class="registration__wrapper-field">
-                            <input name="name" class="registration__field registration__field--name" placeholder="First Name">
+                            <input type="text" name="name" class="registration__field registration__field--name" placeholder="First Name">
                         </div>
                         <div class="registration__wrapper-field">
-                            <input name="surname" class="registration__field registration__field--surname" placeholder="Last Name">
+                            <input type="text" name="surname" class="registration__field registration__field--surname" placeholder="Last Name">
                         </div>
                         <div class="registration__wrapper-field registration__wrapper-field--flex">
                             <div class="registration__wrapper-radio">
-                                <input type="radio" name="gender" class="registration__radio" value="male">
+                                <input type="radio" name="gender-male" class="registration__radio" value="male">
                                 <label class="registration__label-radio">Male</label>
                             </div>
                             <div class="registration__wrapper-radio">
-                                <input type="radio" name="gender" class="registration__radio" value="female">
+                                <input type="radio" name="gender-female" class="registration__radio" value="female">
                                 <label class="registration__label-radio">Female</label>
                             </div>
                         </div>
@@ -120,15 +120,15 @@
                     <fieldset>
                         <legend class="registration__legend-form">Login details</legend>
                         <div class="registration__wrapper-field">
-                            <input name="email" class="registration__field registration__field--email" placeholder="Email">
+                            <input name="email" type="email" class="registration__field registration__field--email" placeholder="Email">
                         </div>
                         <div class="registration__wrapper-field">
-                            <input name="password" class="registration__field registration__field--password" placeholder="Password">
+                            <input type="password" name="password" class="registration__field registration__field--password" placeholder="Password">
                             <label class="registration__label-password">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</label>
                         </div>
                     </fieldset>
                     <div class="registration__wrapper-button">
-                        <button class="registration__submit">
+                        <button type="submit" class="registration__submit">
                             <span class="registration__submit-text">Join now</span>
                             <img src="./img/arrow-button.svg" alt="Arrow button"  class="registration__submit-img">
                         </button>
@@ -159,8 +159,8 @@
                 <h2 class="footer__caption-subscribe">Subscribe</h2>
                 <p class="footer__description-subscribe">for our newletter and promotion</p>
                 <form class="footer__form-subscribe">
-                    <input type="text" name="email" placeholder="Enter Your Email" class="footer__form-input">
-                    <button type="button" class="footer__form-button">Subscribe</button>
+                    <input type="email" name="email" placeholder="Enter Your Email" class="footer__form-input">
+                    <button type="submit" class="footer__form-button">Subscribe</button>
                 </form>
             </div>
         </section>
@@ -198,8 +198,8 @@
             </div>
         </div>
         </section>
-    
     </footer>
+
     <script src="js/nav-animate.js"></script>
 </body>
 </html>
