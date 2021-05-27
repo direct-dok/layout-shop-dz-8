@@ -31,6 +31,8 @@
 
 	&__breadcrumbs {
         display: flex;
+        align-items: center;
+        max-width: 50%;
     }
 
 	&__path-breadcrumbs {

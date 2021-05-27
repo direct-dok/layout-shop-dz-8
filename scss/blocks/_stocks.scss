@@ -25,6 +25,7 @@
 
     &__item {
         margin: 0 15px;
+        background: #f1e4e6;
 
         @include tablet-style() {
             margin: 0 10px;
@@ -32,15 +33,15 @@
     }
 
     &__item--one {
-        background: url(../img/for-women.jpg);
+        background-image: url(../img/for-women.jpg);
     }
     
     &__item--two {
-        background: url(../img/for-men.jpg);
+        background-image: url(../img/for-men.jpg);
     }
     
     &__item--three {
-        background: url(../img/for-kids.jpg);
+        background-image: url(../img/for-kids.jpg);
     }
     
     &__item--one, 
@@ -68,7 +69,8 @@
     &__item--four {
         width: 100%;
         height: 180px;
-        background: url(../img/accesories.jpg);
+        background: #f1e4e6;
+        background-image: url(../img/accesories.jpg);
         margin: 30px 15px 0 15px;
 
         @include tablet-style() {
@@ -90,10 +92,13 @@
         align-items: center;
         justify-content: center;
         background: rgba(33, 22, 22, 0.7); 
+        padding: 16px;
+        box-sizing: border-box;
     }
     
     &__subcaption {
         text-transform: uppercase;
+        text-align: center;
         color: #fff;
     }
     

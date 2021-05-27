@@ -115,7 +115,7 @@
 
         img {
             max-width: 100%;
-            max-height: 720px;
+            height: auto;
         }
     }
 
@@ -253,9 +253,24 @@
         border-color: #FF6A6A;
         color: #FF6A6A;
         justify-content: space-evenly;
+        transition: .3s;
+
+        .product-info__button-add-cart--icon-cart {
+            transition: .3s;
+        }
 
         &--icon-cart {
             fill: #EF5B70;
+        }
+
+        &:hover {
+            background: $pink-hover-color;
+            color: #fff;
+        }
+
+        &:hover .product-info__button-add-cart--icon-cart {
+            transition: .3s;
+            fill: #fff;
         }
     }
 
